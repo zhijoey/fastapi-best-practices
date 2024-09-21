@@ -1,0 +1,13 @@
+app:
+  host: localhost
+  port: 8089
+  loglevel: debug
+
+database:
+  driver: postgresql
+  host: localhost
+  port: 5432
+  name: mydb
+  user: admin
+  password: secret
+
