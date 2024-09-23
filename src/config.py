@@ -31,7 +31,8 @@ class Config(BaseSettings):
 
     model_config = SettingsConfigDict(
         yaml_file=yaml_file,
-        yaml_file_encoding='utf-8'
+        yaml_file_encoding='utf-8',
+        extra='ignore'
     )
 
     app: AppConfig
